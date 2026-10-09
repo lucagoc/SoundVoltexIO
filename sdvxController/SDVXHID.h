@@ -3,8 +3,8 @@
 
 /* PINOUT */
 //PIN_L is also the pin for single strip use
-#define LED_STRIP_PIN_L A1
-#define LED_STRIP_PIN_R A0
+#define LED_STRIP_PIN_L 13
+#define LED_STRIP_PIN_R A5
 #define SIDE_NUM_LEDS    9
 //#define L_STRIP_REVERSE //will reverse the direction of the left strip (for light march effects)
 //#define R_STRIP_REVERSE //will reverse the direction of the right strip (for light march effects)
