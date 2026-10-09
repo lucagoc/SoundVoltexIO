@@ -4,10 +4,10 @@
 #include "SDVXHID.h"
 
 /* use encoders rather than potentiometers */
-//#define USE_ENCODERS
+#define USE_ENCODERS
 
 #ifdef USE_ENCODERS
-  #define ENCODER_PPR 400
+  #define ENCODER_PPR 350
   #define ENCODER_SENSITIVITY 1023/ENCODER_PPR
   #define ENC_L_A 0
   #define ENC_L_B 1

@@ -389,7 +389,7 @@ void SDVXHID_::update_knobs_param(){
       FastLED.show();
       FastLED.setBrightness(0xFF);
     }
-    static void fill_tc( struct CRGB * pFirstLEDL, struct CRGB * pFirstLEDR, bool hasBlue,
+    static void fill_tc( CRGB * pFirstLEDL, CRGB * pFirstLEDR, bool hasBlue,
                   int8_t spinL, bool hasRed,
                   int8_t spinR, CRGB hidcolor )
     {
